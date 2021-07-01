@@ -37,7 +37,7 @@ ${testData}
 module.exports = readMeData => {
     const { title, description, license, install, usage, usagePicture, github, email, contribute, tests, ...rest } = readMeData;
 
-    return `[badge](https://img.shields.io/badge/License-${license}-blue)
+    return `![badge](https://img.shields.io/badge/License-${license}-blue)
 # ${title}
     
 ## Description
@@ -59,7 +59,7 @@ ${license} License
 
 ## Usage
 ${usage}
-[usage](${usagePicture})
+![usage](${usagePicture})
 ${generateContribute(contribute)}
 ${generateTests(tests)}
 ## Questions
