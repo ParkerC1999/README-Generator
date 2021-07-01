@@ -15,3 +15,6 @@ The actual generated file is located in the "dist" directory/folder.
 
 ## Screenshot:
 ![screenshot](/imgs/generated.PNG)
+
+## Video:
+Video was too big to add...
